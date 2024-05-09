@@ -18,13 +18,12 @@ public class ControleSimplesDeSaques {
 
             else if(limiteDiario >= saque){
                 limiteDiario = limiteDiario - saque;
-                System.out.println("Saque realizado. Limite restante: " + limiteDiario);
-                
+                System.out.println("Saque realizado. Limite restante:");
+                System.out.println(limiteDiario);
             }
 
             else if(saque > limiteDiario){
-                System.out.println("Limite diario de saque atingido. Transacoes encerradas.");
-                break;
+                
             }
 
         }
